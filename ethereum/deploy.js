@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-    'render drink announce ritual tower random jazz cycle disease gun eye crumble',
+    'render ******* tower random jazz cycle disease gun eye crumble',
     'https://rinkeby.infura.io/k6koqnBm6esL2uSbRJNA'
 );
 
