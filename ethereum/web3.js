@@ -8,7 +8,7 @@ if ( typeof window !== 'undefined' && typeof window.web3 !== 'undefined'){
 }else{
   //we are in next server and metamask not installed
   const provider = new Web3.providers.HttpProvider(
-    'https://rinkeby.infura.io/k6koqnBm6esL2uSbRJNA'
+    'https://rinkeby.infura.io/{Access_Token}'
   );
 
   web3 = new Web3(provider);
